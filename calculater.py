@@ -5,23 +5,23 @@ def add(x, y):
     return x + y
 
 # This function subtracts two numbers
- subtract(x, y):
+ def subtract(x, y):
     return x - y
 
 # This function multiplies two numbers
 def multiply(x, y):
-     x * y
+    return x * y
 
 # This function divides two numbers
 def divide(x, y):
-     x / y
+    return x / y
 
 
-prnt("Select operation.")
-prnt("1.Add")
-pint("2.Subtract")
-pint("3.Multiply")
-prnt("4.Divide")
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
 
 while True:
     # Take input from the user
